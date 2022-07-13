@@ -48,16 +48,4 @@ public class UserController {
 		return new ResponseEntity<AuthResponse>(userServiceImpl.getValidity(token), HttpStatus.OK);
 	}
 
-//	/**It returns the employee id of the user who has logged in.
-//	 * It is sent along with the token for future uses.
-//	 * 
-//	 * @param userName
-//	 * @return employeeId(integer)
-//	 */
-//	@GetMapping("/getempid")
-//	public int getEmpId(String username) {
-//		log.info("Inside get employee id");
-//		return userServiceImpl.getEmpId(username);
-//	}
-
 }
