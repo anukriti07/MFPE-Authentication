@@ -38,6 +38,7 @@ public class UserController {
 	
 
 	/**
+	 *
 	 * checks for the validity of the JWT Token
 	 * @param token
 	 * @return authResponse
